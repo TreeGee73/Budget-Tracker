@@ -1,6 +1,8 @@
 # Budget-Tracker!
 [License](https://img.shields.io/badge/License-MIT-blue)
 
+<img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/> <img src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white"/>
+
 ## Table of Contents
   * [Description](#description)
   * [Usage](#usage)
@@ -16,10 +18,13 @@
   ## Description
 Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
 
+The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+
 ---
 
   ## Usage
-
+I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+SO THAT my account balance is accurate when I am traveling
 
 ---
 
@@ -27,9 +32,9 @@ Add functionality to our existing Budget Tracker application to allow for offlin
 This app utilizes the following technologies:
  - [npm](https://www.npmjs.com/)
  - [NodeJS](https://nodejs.org/)
- - [MySQL](https://www.mysql.com/)
+ - [MongoDB](https://www.mongodb.com/)
  - [Express](https://www.npmjs.com/package/express)
- - [Express Handlebars](https://www.npmjs.com/package/express-handlebars)
+ - [MongoDB-Atlas](https://www.mongodb.com/cloud/atlas)
  - [Heroku](https://www.heroku.com/)
 
 
@@ -41,7 +46,15 @@ This app utilizes the following technologies:
 ---
 
   ## License
-The applications are covered under a MIT license.
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+Copyright (c) 2021, Theresa Grier.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
@@ -57,7 +70,7 @@ The applications are covered under a MIT license.
 ---
 
   ## Contributing to This Repo
-  Please Contact me.
+  To contribute to this project, clone this project repository locally, create a new branch, and install all dependencies using 'npm install'. After modifying the code, verify all edits/changes are clearly commented and submit a push request which includes a summary of the edits. I will review all contributions prior to incorporating them into the repo.
 
 ---
 
