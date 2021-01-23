@@ -42,6 +42,7 @@ This app utilizes the following technologies:
 
   ## Installation
 
+This application has been deployed to Heroku. Click [https://radiant-river-55408.herokuapp.com/](https://radiant-river-55408.herokuapp.com/) to run the app.
 
 ---
 
