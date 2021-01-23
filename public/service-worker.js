@@ -50,20 +50,17 @@ self.addEventListener("fetch", function (evt) {
     evt.respondWith(
       caches
         .open(DATA_CACHE_NAME)
-        .then(function (cache) {
-          return fetch(evt.request)
-            .then(function (response) {
-              // If the response was good, clone it and store it in the cache.
-              if (response.status === 200) {
-                cache.put(evt.request.url, response.clone());
-              }
-
-              return response;
-            })
-            .catch(function (err) {
-              // Network request failed, try to get it from the cache.
-              return cache.match(evt.request);
-            });
+        .then(async function (cache) {
+          try {
+            const response = await fetch(evt.request);
+            // If the response was good, clone it and store it in the cache.
+            if (response.status === 200) {
+              cache.put(evt.request.url, response.clone());
+            }
+            return response;
+          } catch (err) {
+            return await cache.match(evt.request);
+          }
         })
         .catch(function (err) {
           return console.log(err);
