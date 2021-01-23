@@ -67,6 +67,8 @@ function checkDatabase() {
         });
     }
   };
+  
+  saveRecord();
 }
 
 // Listen for the app to come back online
