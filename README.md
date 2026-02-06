@@ -35,14 +35,6 @@ This app utilizes the following technologies:
  - [MongoDB](https://www.mongodb.com/)
  - [Express](https://www.npmjs.com/package/express)
  - [MongoDB-Atlas](https://www.mongodb.com/cloud/atlas)
- - [Heroku](https://www.heroku.com/)
-
-
----
-
-  ## Installation
-
-This application has been deployed to Heroku. Click [https://radiant-river-55408.herokuapp.com/](https://radiant-river-55408.herokuapp.com/) to run the app.
 
 ---
 
